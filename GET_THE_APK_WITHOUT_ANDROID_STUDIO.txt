@@ -1,0 +1,19 @@
+GET THE APK WITHOUT INSTALLING ANYTHING (free GitHub account needed)
+
+1. Go to github.com, sign in, press "+" > New repository. Name it endocrine-qbank. Keep it Private. Create it.
+2. On the new repository page press "uploading an existing file".
+3. Unzip Android_APK_Project.zip on your computer. Open the unzipped folder and drag
+   EVERYTHING inside it (app, gradle, .github, build.gradle, settings.gradle, gradle.properties ...)
+   into the GitHub page. IMPORTANT: upload the contents, not the folder itself.
+   (The hidden ".github" folder must be included. On Windows: View > Show hidden items.
+    On Mac: press Cmd+Shift+. in Finder.)
+4. Press "Commit changes".
+5. Open the "Actions" tab. A job called "Build APK" starts by itself (about 5 minutes).
+   If it does not start: Actions > Build APK > Run workflow.
+6. When it turns green, open it and download "Endocrine-Qbank-APK" at the bottom.
+   Unzip it: app-debug.apk is your app.
+7. Send app-debug.apk to the phone (WhatsApp, email, USB). Open it and allow
+   "Install unknown apps" for that app when Android asks.
+
+The app then works completely offline. Progress stays on the phone.
+If step 5 shows a red cross, open the failed step, copy the last 20 lines of the error and send them to me.
